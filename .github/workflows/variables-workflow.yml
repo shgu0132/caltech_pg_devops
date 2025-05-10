@@ -6,7 +6,7 @@ on: [push]
 env:
   owner_name: Abhi
   my_repo_var_value: ${{ vars.MY_REPO_VAR }}
-  my_secret_var_value: ${{ secrets.MY_REPO_VAR }}
+  my_secret_var_value: ${{ secrets.MY_SECRET }}
 
 jobs:
   use_env_var:
